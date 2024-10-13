@@ -5,7 +5,7 @@ BATTLERAGER: The Battlerager fills a particular niche in dwarf society and cultu
 Advantages:
 - May use Killing Rage ability once per day. Gains one use at level 1 and an additional use every 4 levels thereafter.
 
-RAGE: For 1 turn, the Battlerager gains a +1 to hit, +3 to damage, +10 temporary Hit Points, +2 movement rate and becomes immune to blindness, charm, confusion, death magic, fear, feeblemind, hold, sleep, stun and related effects. During this time, the Battlerager is unaware of his current Hit Points and is temporarily unaffected by any effect that heals Hit Points. After the rage subsides he becomes fatigued and his Strength drops for 1 turn.
+KILLING RAGE: For 1 turn, the Battlerager gains a +1 to hit, +3 to damage, +10 temporary Hit Points, +2 movement rate and becomes immune to blindness, charm, confusion, death magic, fear, feeblemind, hold, sleep, stun and related effects. During this time, the Battlerager is unaware of his current Hit Points and is temporarily unaffected by any effect that heals Hit Points. After the rage subsides he becomes fatigued and his Strength drops for 1 turn.
 
 Disadvantages:
 - Race restricted to dwarf.

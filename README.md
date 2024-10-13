@@ -1,5 +1,4 @@
 # Battlerager-Kit
-Battlerager Kit for Baldur's Gate Enhanced Edition
 
 BATTLERAGER: The Battlerager fills a particular niche in dwarf society and culture. He is a fearless warrior, able to create an insane rage within himself which increases his fighting ability and distorts his physical features. While enraged, a Battlerager’s face becomes twisted and his teeth grind together. Spittle flies from his mouth and dribbles down his beard. His eyes enlarge, bulge, and become bloodshot. Size increases as his muscles swell and his body expands. His fighting ability becomes awesome, allowing him to fight longer and harder than any other dwarf. While in his rage, he is almost unstoppable. A dangerous enemy, he is a menace to friend and foe alike. 
 

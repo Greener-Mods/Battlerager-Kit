@@ -15,7 +15,7 @@ Disadvantages:
 
 **INSTALLATION**
                  
-This kit has been adapted from the The Complete Book of Dwarves and tested with BG2EE only. 
+This kit has been adapted from the The Complete Book of Dwarves and tested with BGEE and BG2EE. 
 
 This is a WEIDU mod thus currently is compatible with other mods.
 

@@ -1,11 +1,11 @@
 # Battlerager-Kit
 
-BATTLERAGER: The Battlerager fills a particular niche in dwarf society and culture. He is a fearless warrior, able to create an insane rage within himself which increases his fighting ability and distorts his physical features. While enraged, a Battlerager's face becomes twisted and his teeth grind together. Spittle flies from his mouth and dribbles down his beard. His eyes enlarge, bulge, and become bloodshot. Size increases as his muscles swell and his body expands. His fighting ability becomes awesome, allowing him to fight longer and harder than any other dwarf. While in his rage, he is almost unstoppable. A dangerous enemy, he is a menace to friend and foe alike. 
+BATTLERAGER: The Battlerager fills a particular niche in dwarf society and culture. He is a fearless warrior, able to create an insane rage within himself that increases his fighting ability while distorting his physical features. When enraged, a Battlerager's face twists into a terrifying grimace; his teeth grind together, spittle flies from his mouth, and his eyes bulge and redden with fury. His muscles swell and his body expands, granting him the strength to fight longer and harder than any other dwarf. In this state, he is nearly unstoppable—but also a danger to friend and foe alike.
 
 Advantages:
-- May use the Rage ability once per day, plus one additional use every 4 levels.
+- May use the Rage ability once per day, plus one additional use every 4 levels thereafter.
 
-RAGE: For 1 turn, the Battlerager gains a +1 bonus to hit, +3 bonus to damage, +1 Hit Points per level, +1 bonus to Armor Class, +1 bonus to Movement Rate and becomes immune to blindness, charm, confusion, fear, feeblemind, hold, sleep, stun and related effects. During this time, the Battlerager may only attack and is unaware of his current Hit Points. After the rage subsides he becomes fatigued and suffers a -2 penalty to Strength for 1 turn.
+RAGE: For 1 turn, the Battlerager gains a +1 bonus to hit, +3 bonus to damage, +1 temporary Hit Point per level, +1 bonus to Armor Class, +1 bonus to Movement Rate, and becomes immune to blindness, charm, confusion, fear, feeblemind, hold, sleep, stun and related effects. During this time, the Battlerager may only move and attack, is unaware of <PRO_HISHER> current Hit Points, and has a 2% chance each round of going berserk, attacking friend and foe alike. After the rage subsides <PRO_HESHE> becomes fatigued and suffers a -2 penalty to Strength for 1 turn.
 
 Disadvantages:
 - Race restricted to dwarf.
@@ -17,7 +17,7 @@ Disadvantages:
                  
 This kit has been adapted from the The Complete Book of Dwarves and tested with BGEE and BG2EE. 
 
-This is a WEIDU mod thus currently is compatible with other mods.
+This is a WEIDU mod thus currently should be compatible with other mods.
 
 	1 - Extract the contents of the zip file into your override folder.
 

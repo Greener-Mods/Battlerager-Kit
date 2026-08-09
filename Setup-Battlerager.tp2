@@ -1,0 +1,72 @@
+BACKUP ~Battlerager Kit/Backup~
+AUTHOR ~Greener~														                                                                          // With thanks to jmerry and CamDawg for some coding assistance
+VERSION ~1.0~
+
+LANGUAGE 
+ ~English~ 
+ ~English~ 
+ ~Battlerager Kit/Language/English/game.tra~
+ ~Battlerager Kit/Language/English/weidu.tra~
+
+BEGIN @1
+REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee~ @2
+ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
+INCLUDE ~Battlerager Kit/Library/fl#add_kit_ee.tpa~
+
+ADD_KIT ~BATTLERAGER~
+
+ ~BATTLERAGER 1 1 1 1 1 1 1 1~  												                                                              // appended to CLASWEAP.2da
+ ~BATTLERAGER 5 5 0 5 5 5 5 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 0 0 0 0 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // appended column-wise to WEAPPROF.2da
+ ~BATTLERAGER 15 0 0 0 0 0~  													                                                                // appended to ABCLASRQ.2da
+ ~BATTLERAGER 0 0 0 0 0 0~ 													                                                                  // appended to ABCLSMOD.2da
+ ~BATTLERAGER 0 0 0 0 0 0~ 													                                                                  // appended to ABDCDSRQ.2da
+ ~BATTLERAGER 15 0 0 0 0 0~ 													                                                                // appended to ABDCSCRQ.2da
+ ~BATTLERAGER 0 0 0 1 1 1 1 1 1~ 												                                                              // appended to ALIGNMNT.2da
+ ~BATTLERAGER 0 0 0 0 0 0~ 													                                                                  // appended to DUALCLAS.2da
+ ~BATTLERAGER Kit/CLAB/CLABFI07.2DA~ 												                                                          // path to your CLAB-style 2da file 
+ ~~ 															                                                                                    // PC races and classes allowed to use this kit, from KITTABLE.2da (K_F_D)
+ ~0x00000001    2~ 														                                                                        // usability flags, added to the end of the KITLIST.2da entry
+ ~Fi0~ 																                                                                                // HLA table to use; see LUABBR.2da
+ ~* * * * * * * * * * * * * * * * * * * *~ 											                                                      // list of starting equipment for PCs starting in ToB. Appended column-wise to 25STWEAP.2da
+ 
+ SAY @3
+ SAY @4
+ SAY @5
+
+LAF fl#add_kit_ee STR_VAR kit_name = BATTLERAGER END
+
+COPY ~Battlerager Kit/CLAB/CLABFI07.2DA~ ~override~
+
+COPY ~Battlerager Kit/Spells/SPCL323.SPL~ ~override~
+SAY NAME1 @6
+SAY UNIDENTIFIED_DESC @7
+
+COPY ~Battlerager Kit/Spells/SPCL323B.SPL~ ~override~
+SAY NAME1 @8
+SAY UNIDENTIFIED_DESC @9
+
+COPY ~Battlerager Kit/Spells/SPCL323D.SPL~ ~override~
+SAY NAME1 @10
+SAY UNIDENTIFIED_DESC @11
+END
+
+COPY_EXISTING ~K_F_D.2DA~ ~override~                                                                                  // replaces berserker kit for dwarves
+  COUNT_2DA_ROWS ~2~ "rows"
+  FOR (index = 1 ; index < rows ; index = index + 1) BEGIN
+    READ_2DA_ENTRY index 1 2 "kit"
+    PATCH_IF ("%kit%" = 1) BEGIN
+      SET_2DA_ENTRY index 1 2 "%BATTLERAGER%"
+      SET "index" = "%rows%"
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+BEGIN @12                                                                                                             // add battlerager kit to Korgan
+REQUIRE_PREDICATE GAME_IS ~bg2ee~ @2
+ACTION_FOR_EACH script IN Korgan BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~korgan.bcs~ THEN BEGIN
+    EXTEND_TOP ~korgan.bcs~  ~Battlerager Kit/BAF/BATTLERAGER.BAF~		       					
+  END
+END
+
+	

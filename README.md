@@ -7,7 +7,7 @@ BATTLERAGER: The Battlerager fills a particular niche in dwarf society and cultu
 Advantages:
 - May use the Rage ability once per day, plus one additional use every 4 levels thereafter.
 
-RAGE: For 1 turn, the Battlerager gains a +1 bonus to hit, +3 bonus to damage, +1 temporary Hit Point per level, +1 bonus to Armor Class, +1 bonus to Movement Rate, and becomes immune to blindness, charm, confusion, fear, feeblemind, hold, sleep, stun and related effects. During this time, the Battlerager may only move and attack, is unaware of <PRO_HISHER> current Hit Points, and has a 2% chance each round of going berserk, attacking friend and foe alike. After the rage subsides <PRO_HESHE> becomes fatigued and suffers a -2 penalty to Strength for 1 turn.
+RAGE: For 1 turn, the Battlerager gains a +1 bonus to hit, +3 bonus to damage, +1 temporary Hit Point per level, +1 bonus to Armor Class, +1 bonus to Movement Rate, and becomes immune to blindness, charm, confusion, fear, feeblemind, hold, sleep, stun and related effects. During this time, the Battlerager may only move and attack, is unaware of his current Hit Points, and has a 2% chance each round of going berserk, attacking friend and foe alike. After the rage subsides he becomes fatigued and suffers a -2 penalty to Strength for 1 turn.
 
 Disadvantages:
 - Race restricted to dwarf.
